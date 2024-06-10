@@ -650,7 +650,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		UIHidden = true
 		OrionLib:MakeNotification({
 			Name = "Interface Hidden",
-			Content = "Tap Open Orion to reopen the interface",
+			Content = "Tap Open UI to reopen the interface",
 			Time = 3
 		})
 		WindowConfig.CloseCallback()
